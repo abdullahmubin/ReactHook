@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import './App.css';
 function Todo ({todo, index}){
   return <div className="todo">{todo.text}</div>
 }
